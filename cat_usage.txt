@@ -1,0 +1,14 @@
+concatenate （鎖状につなぐ、連結するの意）
+　ファイルの閲覧
+　  cat file1
+　  cat file1 > file2  #別のファイルに内容を記述 
+　  cat file1 >> file2 #別のファイルに内容を追加
+　結合
+　  cat file1 file2　　#結合して記述
+　  
+　  
+コマンドオプション
+  -n 
+    cat -n file1       #行番号をつけて記述
+  -b
+    cat -b file1       #blank(空白行)なしで行番号をつけて記述
